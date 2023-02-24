@@ -7,10 +7,11 @@ import System from "../../pages/System";
 const Router = () => {
   return (
     <Routes>
-      <Route path="/" element={ <Portal /> } />
-      <Route path="/main" element={ <System /> } />
-      <Route path="myInfo" element={ <MyInfo /> } />
+      <Route path="/" element={ <System /> } />
       <Route path="admin" element={ <Admin /> }/>
+      <Route path="myInfo" element={ <MyInfo /> } />
+      
+      <Route path="main" element={ <System /> } /> 
     </Routes>
   );
 };
