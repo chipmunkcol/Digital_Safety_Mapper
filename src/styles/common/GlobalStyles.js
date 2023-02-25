@@ -20,7 +20,8 @@ export const GlobalStyles = createGlobalStyle`
         line-height: 1;
         font-family: 'Noto Sans KR', sans-serif;
         background-color: white;
-        margin-bottom: 100px;
+        width: 100vw;
+        height: 100vh;
     }
     ol, ul{
         list-style: none;
