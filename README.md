@@ -65,9 +65,9 @@ const RuleComponent = () => {
 ex.src/scss/style.scss 파일 변환시
 터미널에서 src/scss 까지 접근해서 아래 명령어를 입력해야합니다
 ```
-- 파일 변환시 자동 컴파일 명령어
+- 파일 변환시 컴파일 명령어
   - sass [변환할 scss 파일명] [변환될 css 파일명]
-- 폴더 변환시 자동 컴파일 명령어(scss -> css폴더)
+- 폴더 변환시 *자동* 컴파일 명령어(scss -> css폴더)
   - sass --watch [input폴더]:[output폴더]
 - $변수명
 - @mixin(Scss 함수생성)
