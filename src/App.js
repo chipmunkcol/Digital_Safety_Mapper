@@ -5,13 +5,13 @@ import Router from "./components/common/router";
 
 function App() {
   return (
-    <>
+    <div style={{ width:"100vw", height:"100vh" }}>
       <Header />
 
       <Header2 />
 
       <Router />
-    </>
+    </div>
   );
 }
 
