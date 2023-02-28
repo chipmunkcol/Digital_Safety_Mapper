@@ -71,7 +71,8 @@ ex.src/scss/style.scss 파일 변환시
   - sass --watch [input폴더]:[output폴더]
 - $변수명
 - @mixin(Scss 함수생성)
-- @include(함수 불러오기S)
+   - @content 구문을 쓰면 @include로 불러와 쓸 때 내용을 추가로 입력할 수 있음
+- @include(함수 불러오기)
 - @extend(셀렉터 불러오기 %변수명 으로 only 불러오기용으로 사용가능)
 - @mixin vs @extend
   - 선택자끼리 단순히 속성만 겹치는 관계면 @mixin </br>
