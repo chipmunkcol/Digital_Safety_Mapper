@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import "../../styles/main.css";
 import Navbar from "./Navbar";
 
@@ -13,13 +13,13 @@ const projectList = ['2021 정밀안전진단(가)', '2022 정밀안전진단(�
 
 const navigate = useNavigate();
 const navigateHandler = ( projectId ) => {
-  navigate({pathname:'/', search:`fac?id=${selectedList}&project?id=${projectId}` });
+  navigate({pathname:'/', search:`fac_id=${selectedList}&prj_id=${projectId}` });
 }
 
   return (
     <div className="header2-wrap">
       <div className="header2-nav-fix">
-        <select 
+        <select className="input-name"
           onChange={(e)=> {
             setSelectedList(e.target.value)
           }} 
@@ -40,8 +40,10 @@ const navigateHandler = ( projectId ) => {
             ))
           }
         </select>
+        
+        <div className="input-space"> - </div>
 
-        <select 
+        <select className="input-name2"
           onChange={(e)=> {
             navigateHandler(e.target.value)
           }} 

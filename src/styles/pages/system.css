@@ -1,25 +1,11 @@
+.system-panelhide {
+  width: calc(100vw - 400px);
+  height: 100%;
+}
+
 .system {
-  display: flex;
-  width: 100%;
-  height: 80%;
-}
-.system .left-panel {
-  width: 20%;
+  width: 100vw;
   height: 100%;
-  background-color: antiquewhite;
-}
-.system .left-panel-hide {
-  display: none;
-}
-.system .main-components {
-  width: 100%;
-  height: 100%;
-  background-color: chocolate;
-}
-.system .main-components-panel {
-  width: 80%;
-  height: 100%;
-  background-color: chocolate;
 }
 
 /*# sourceMappingURL=system.css.map */

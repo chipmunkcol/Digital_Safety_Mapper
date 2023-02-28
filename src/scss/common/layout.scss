@@ -4,14 +4,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: teal;
+  border-bottom: 1px solid rgb(194, 194, 194);
   padding: 0 2rem 0 2rem;
 }
 
 .header-logo {
   width: 8rem;
   height: 3rem;
-  background-color: beige;
+  margin-top: 17px;
+  .img {
+  }
 }
 
 @mixin nav-margin {
@@ -43,37 +45,35 @@
   height: 8vh;
   display: flex;
   align-items: center;
-  background-color: rgb(194, 194, 194);
 }
-$input-width: 40;
-$input-height: 50;
+
+$input-width: 200;
+$input-height: 30;
 .header2-nav-fix {
-  width: 30%;
+  width: 420px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 0.3rem 0 0.3rem;
-
-  border: 1px solid orange;
+  padding-left: 2rem;
 
   .input-name {
-    width: $input-width * 1%;
-    height: $input-height * 1%;
+    width: $input-width * 1px;
+    height: $input-height * 1px;
 
-    margin-right: 1rem;
   }
   .input-name2 {
-    width: $input-width * 1%;
-    height: $input-height * 1%;
+    width: $input-width * 1px;
+    height: $input-height * 1px;
+  }
+  .input-space {
+    margin: 0 5px 5px 5px;
   }
 }
 .header2-nav-flex {
-  width: 70%;
+  width: 465px;
   height: 100%;
   display: flex;
-
-  border: 1px solid purple;
 }
 @mixin nav-margin2 {
   margin-right: 3rem;

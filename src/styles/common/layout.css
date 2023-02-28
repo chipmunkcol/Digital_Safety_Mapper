@@ -4,28 +4,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: teal;
+  border-bottom: 1px solid rgb(194, 194, 194);
   padding: 0 2rem 0 2rem;
 }
 
 .header-logo {
   width: 8rem;
   height: 3rem;
-  background-color: beige;
+  margin-top: 17px;
 }
-
 .header-nav {
   display: flex;
 }
-
 .header-nav-home {
   margin-right: 3rem;
 }
-
 .header-nav-upload {
   margin-right: 3rem;
 }
-
 .header-nav-analysis {
   margin-right: 3rem;
 }
@@ -42,35 +38,32 @@
   height: 8vh;
   display: flex;
   align-items: center;
-  background-color: rgb(194, 194, 194);
 }
 
 .header2-nav-fix {
-  width: 30%;
+  width: 420px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 0.3rem 0 0.3rem;
-  border: 1px solid orange;
+  padding-left: 2rem;
 }
-
 .header2-nav-fix .input-name {
-  width: 40%;
-  height: 50%;
-  margin-right: 1rem;
+  width: 200px;
+  height: 30px;
 }
-
 .header2-nav-fix .input-name2 {
-  width: 40%;
-  height: 50%;
+  width: 200px;
+  height: 30px;
+}
+.header2-nav-fix .input-space {
+  margin: 0 5px 5px 5px;
 }
 
 .header2-nav-flex {
-  width: 70%;
+  width: 465px;
   height: 100%;
   display: flex;
-  border: 1px solid purple;
 }
 
 .navbar {
@@ -81,13 +74,11 @@
   align-items: center;
   padding: 0 5rem 0 2rem;
 }
-
 .navbar-facility {
   margin-right: 3rem;
 }
-
 .navbar-analysis {
   margin-right: 3rem;
-} 
+}
 
 /*# sourceMappingURL=layout.css.map */
