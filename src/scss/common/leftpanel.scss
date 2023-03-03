@@ -1,6 +1,6 @@
 .leftpanel {
     width: 400px;
-    height: 100%;
+    height: calc(100vh - 19vh);
     background-color: tomato;
     transition: 0.3s;
     float: left;
@@ -8,7 +8,8 @@
 .leftpanel-hide {
     width: 0px;
     opacity: 0;
-    height: 100%;
+    height: calc(100vh - 19vh);;
     background-color: tomato;
     transition: 0.3s;
+    float: left;
 }

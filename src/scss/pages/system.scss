@@ -1,10 +1,10 @@
 
 .system-panelhide {
     width: calc(100vw - 400px);
-    height: 100%;
+    height: calc(100vh - 19vh);
 }
 .system {
     width: 100vw;
-    height: 100%
+    height: calc(100vh - 19vh)
 }
 

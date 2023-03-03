@@ -1,11 +1,11 @@
 .system-panelhide {
   width: calc(100vw - 400px);
-  height: 100%;
+  height: 81vh;
 }
 
 .system {
   width: 100vw;
-  height: 100%;
+  height: 81vh;
 }
 
 .header-wrap {
@@ -92,17 +92,19 @@
 }
 .leftpanel {
   width: 400px;
-  height: 100%;
+  height: 81vh;
   background-color: tomato;
   transition: 0.3s;
+  float: left;
 }
 
 .leftpanel-hide {
   width: 0px;
   opacity: 0;
-  height: 100%;
+  height: 81vh;
   background-color: tomato;
   transition: 0.3s;
+  float: left;
 }
 
 /*# sourceMappingURL=main.css.map */
